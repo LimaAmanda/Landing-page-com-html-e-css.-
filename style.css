@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(68.15deg, #308b56 16.62%, #397a83 85.61%);
 }
 
 .cabecalho {
@@ -28,12 +28,14 @@ body{
 .cabecalho-menu{
     display: flex;
     gap: 32px;
+    font-family: 'Righteous', cursive;
+    color:#e7ffe7;
     
 }
 
 .cabecalho-menu-itens{
     font-family: 'Righteous', cursive;
-    color:#f8ffe7;
+    color:#e7ffe7;
     font-weight: 400;
     font-size: 18px;
     
@@ -64,23 +66,24 @@ body{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color:#e7fcff ;
+    color:#e7f1ff ;
 }
 .conteudo-principal-escrito-botao{
 background-color: #FFF2E7;
 width: 180px;
 height: 60px; 
 border: none;
-box-shadow: 4px 5px 4px rgba(0,0,0, 0.25);
+box-shadow: 4px 5px 4pxrgba(0,0,0, 0.25);
 border-radius: 20px;
-font-family: 'Sarala', sans-serif;
+font-family: 'Righteous' , cursive;
 font-weight: 400;
 font-size: 20px;
-color: #2F2325;
+color: #3b062a;
 }
 
 .conteudo-principal-escrito-botao:houver {
-    background-color: rgba(236,214,196, 0.53);
+    background-color: rgba(196, 197, 236, 0.53);
+   
 }
 
 .conteudo-principal-imagem{
@@ -109,11 +112,17 @@ color: #2F2325;
     color:#FFF2E7 ;
 }
 .rodape{
-    padding: 32px;
+    padding: 80px;
     border-top: 0.4px solid #FFF2E7;
 }
 .rodape-imagem{
-    height: 48px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+rodape-imagem{
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
