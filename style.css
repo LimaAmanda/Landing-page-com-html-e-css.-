@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #308b56 16.62%, #397a83 85.61%);
+    background: linear-gradient(68.15deg, #a433b3 16.62%, #16b82b 85.61%);
 }
 
 .cabecalho {
@@ -22,20 +22,21 @@ body{
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 70px;
     
 }
 .cabecalho-menu{
     display: flex;
     gap: 32px;
     font-family: 'Righteous', cursive;
-    color:#e7ffe7;
+    color:#7c0835;
+    
     
 }
 
 .cabecalho-menu-itens{
     font-family: 'Righteous', cursive;
-    color:#e7ffe7;
+    color:#2e053a;
     font-weight: 400;
     font-size: 18px;
     
@@ -59,14 +60,14 @@ body{
 .conteudo-principal-escrito-titulo{
     font-family: 'Righteous', cursive;
     font: weight 400;
-    font-size: 64px;
-    color: #f7ffe7;
+    font-size: 50px;
+    color: #440930;
 }
 .conteudo-principal-escrito-titulo-subtitulo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 24px;
-    color:#e7f1ff ;
+    font-size: 34px;
+    color:#500938 ;
 }
 .conteudo-principal-escrito-botao{
 background-color: #6fb9b9;
@@ -78,12 +79,12 @@ border-radius: 20px;
 font-family: 'Righteous' , cursive;
 font-weight: 400;
 font-size: 20px;
-color: #FFF2E7;
+color: #a83c9a;
 
 }
 
 .conteudo-principal-escrito-botao:houver {
-    background-color: rgba(196, 197, 236, 0.53);
+    background-color: rgba(236, 202, 196, 0.53);
    
 }
 
@@ -98,23 +99,25 @@ color: #FFF2E7;
     margin-top: 48px;
 }
 .conteudo-escrito-secundario-titulo{
-    border-top: 00.4px solid #FFF2E7;
+    
     padding-top: 48px;
     font-family: 'Righteous' , cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #FFF2E7;
+    color: #4e064e;
     margin-bottom: 16px;
+    margin-top: 48px;
+    border-top: 0.4px solid #c1c1cc;
 }
 .conteudo-escrito-secundario-paragrafo{
     font-family: 'Righteous', cursive;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
-    color:#FFF2E7 ;
+    color:#380a36 ;
 }
 .rodape{
     padding: 80px;
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #c1c1cc;
 }
 .rodape-imagem{
     height: 100px;
