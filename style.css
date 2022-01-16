@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #a433b3 16.62%, #16b82b 85.61%);
+    background: linear-gradient(68.15deg, #a433b3 16.62%, #067c16 85.61%);
 }
 
 .cabecalho {
@@ -36,7 +36,7 @@ body{
 
 .cabecalho-menu-itens{
     font-family: 'Righteous', cursive;
-    color:#2e053a;
+    color:#17031d;
     font-weight: 400;
     font-size: 18px;
     
