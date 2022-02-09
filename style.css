@@ -129,8 +129,7 @@ color: #a83c9a;
 rodape-imagem{
     height: 100px;
     display: block;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 
 .direitos{
@@ -138,10 +137,11 @@ rodape-imagem{
     font-weight: 400;
     font-size: 18px;
     color:#380a36 ;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    
-    
-    
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 
